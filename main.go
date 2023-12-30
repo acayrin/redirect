@@ -136,5 +136,5 @@ func main() {
 		http.Redirect(w, r, selectedService.Instance+urlPath, http.StatusFound)
 	})
 
-	http.ListenAndServe(":31313", nil)
+	http.ListenAndServe(":8000", nil)
 }
